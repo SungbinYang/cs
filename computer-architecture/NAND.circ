@@ -99,4 +99,39 @@
     <wire from="(800,770)" to="(840,770)"/>
     <wire from="(900,750)" to="(940,750)"/>
   </circuit>
+  <circuit name="AND_Gate">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="AND_Gate"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(640,470)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(640,510)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(640,560)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(900,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(780,490)" name="AND Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <wire from="(640,470)" to="(730,470)"/>
+    <wire from="(640,510)" to="(680,510)"/>
+    <wire from="(640,560)" to="(710,560)"/>
+    <wire from="(680,490)" to="(680,510)"/>
+    <wire from="(680,490)" to="(730,490)"/>
+    <wire from="(710,510)" to="(710,560)"/>
+    <wire from="(710,510)" to="(730,510)"/>
+    <wire from="(780,490)" to="(900,490)"/>
+  </circuit>
 </project>
