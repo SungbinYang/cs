@@ -158,4 +158,28 @@
     <wire from="(640,510)" to="(700,510)"/>
     <wire from="(750,490)" to="(880,490)"/>
   </circuit>
+  <circuit name="XOR_Gate">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="XOR_Gate"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(570,440)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(570,480)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(930,460)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(670,460)" name="XOR Gate"/>
+    <wire from="(570,440)" to="(610,440)"/>
+    <wire from="(570,480)" to="(610,480)"/>
+    <wire from="(670,460)" to="(930,460)"/>
+  </circuit>
 </project>
