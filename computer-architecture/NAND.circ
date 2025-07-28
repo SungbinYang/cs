@@ -76,4 +76,27 @@
     <wire from="(810,770)" to="(860,770)"/>
     <wire from="(920,750)" to="(940,750)"/>
   </circuit>
+  <circuit name="NOT_Gate">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="NOT_Gate"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(790,750)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(940,750)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(900,750)" name="NAND Gate"/>
+    <wire from="(790,750)" to="(800,750)"/>
+    <wire from="(800,730)" to="(800,750)"/>
+    <wire from="(800,730)" to="(840,730)"/>
+    <wire from="(800,750)" to="(800,770)"/>
+    <wire from="(800,770)" to="(840,770)"/>
+    <wire from="(900,750)" to="(940,750)"/>
+  </circuit>
 </project>
