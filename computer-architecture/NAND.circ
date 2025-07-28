@@ -134,4 +134,28 @@
     <wire from="(710,510)" to="(730,510)"/>
     <wire from="(780,490)" to="(900,490)"/>
   </circuit>
+  <circuit name="OR_Gate">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="OR_Gate"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(640,470)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(640,510)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(880,490)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="Q"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(750,490)" name="OR Gate"/>
+    <wire from="(640,470)" to="(700,470)"/>
+    <wire from="(640,510)" to="(700,510)"/>
+    <wire from="(750,490)" to="(880,490)"/>
+  </circuit>
 </project>
